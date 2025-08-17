@@ -1,0 +1,45 @@
+window {
+    background-color: rgba(30, 30, 46, 0.9); /* base with 90% opacity */
+    color: #cdd6f4; /* text */
+    font-family: "Montserrat";
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+#outer-box {
+    border: 2px solid #313244; /* surface0 */
+    border-radius: 12px;
+}
+
+#entry {
+    border: 0;
+    padding: 8px 16px;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #bac2de; /* subtext1 */
+}
+
+#entry:selected, #entry:focus {
+    background-color: #313244; /* surface0 */
+    color: #89b4fa; /* blue */
+    outline: none;
+    border-radius: 8px;
+}
+
+#input {
+    margin: 0;
+    padding: 6px;
+    background-color: rgba(24, 24, 37, 0.85); /* mantle with transparency */
+    color: #cdd6f4; /* text */
+    border-radius: 8px;
+    border-bottom: 2px solid #b4befe; /* lavender */
+}
+
+#input:focus {
+    outline: none;
+}
+
+#img {
+    padding: 0 10px;
+}
+
